@@ -1,0 +1,20 @@
++willsoe I do have a schematic of this, but honestly, its a total mess... :(
+
+
+I was inspired by this: http://www.instructables.com/id/Nixie-Tube-Music-Visualizer/  At first I was going to make that, but theres multiple shortcomings with it. 
+On this page: http://www.nixiekits.eu/ in the manuals section you can find assembly manuals for their "Nixielyzer" and "Magilyzer". "Nixielyzer" diagram was the main resource I based my design on (copied it a lot ;))
+
+
+Also there's few good points in this thread http://www.tubeclockdb.com/forum/Builders-Forum/3462-nixie-VU-meter.html 
+Remember to burn-in the tubes with max current (or little over it)  until they show full bar.
+
+
+"Nixielyzer" uses only 6+1 bands so I used the Fliege-filter (10 of them) design from the first mentioned Instructable.
+PWM generator was implemented using op-amps like this https://www.maximintegrated.com/en/app-notes/index.mvp/id/3201 which controls MOSFETs like suggested in this analyzer project: http://sound.westhost.com/project136.htm
+
+
+This module http://www.ebay.com/itm/TYPE-D-15W-120kHz-220V-High-Voltage-Power-Supply-Module-For-Audio-amplify-NIXIE-/131583624289?hash=item1ea2fec461 is used to generate HV. It's easy to make your own one too.
+
+
+And here's my schematic .. bear in mind there's a lot of compromises and probably a lot of errors plus design flaws :). Also there's several trimpots which adjust the right operation, but you'll have to figure it out yourself you are going to make one...
+https://drive.google.com/file/d/0B8e-pAR0g4ptQ28zWktwbUo1QTA/view?usp=sharing
